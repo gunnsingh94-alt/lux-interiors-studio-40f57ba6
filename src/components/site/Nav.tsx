@@ -38,13 +38,24 @@ export function Nav() {
             </li>
           ))}
         </ul>
-        <a
-          href="#contact"
-          className="hidden md:inline-flex items-center gap-2 rounded-full border border-white/15 px-5 py-2 text-[12px] tracking-[0.22em] uppercase text-white/85 transition-all hover:border-[color:var(--gold)] hover:text-[color:var(--gold)]"
-        >
-          Enquire
-          <span className="h-1 w-1 rounded-full bg-[color:var(--accent)] glow-emerald" />
-        </a>
+        <div className="hidden md:flex items-center gap-4">
+          <a
+            href="https://wa.me/919548184893?text=Hi%2C%20I%27m%20interested%20in%20learning%20more%20about%20Jai%20Jagdamba%20Interior%20products."
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 rounded-full border border-white/15 px-5 py-2 text-[12px] tracking-[0.22em] uppercase text-white/85 transition-all hover:border-[color:var(--accent)] hover:text-[color:var(--accent)]"
+          >
+            WhatsApp
+            <span className="h-1 w-1 rounded-full bg-[color:var(--accent)] glow-emerald" />
+          </a>
+          <a
+            href="#contact"
+            className="inline-flex items-center gap-2 rounded-full border border-white/15 px-5 py-2 text-[12px] tracking-[0.22em] uppercase text-white/85 transition-all hover:border-[color:var(--gold)] hover:text-[color:var(--gold)]"
+          >
+            Enquire
+            <span className="h-1 w-1 rounded-full bg-[color:var(--accent)] glow-emerald" />
+          </a>
+        </div>
       </nav>
     </header>
   );

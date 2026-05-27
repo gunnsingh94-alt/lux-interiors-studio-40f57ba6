@@ -73,6 +73,19 @@ export function Contact() {
                 +91 95481 84893
               </a>
             </div>
+            <div className="flex items-start gap-4">
+              <span className="text-[10px] tracking-[0.28em] uppercase text-white/40 mt-1 w-20">
+                WhatsApp
+              </span>
+              <a
+                href="https://wa.me/919548184893?text=Hi%2C%20I%27m%20interested%20in%20learning%20more%20about%20Jai%20Jagdamba%20Interior%20products."
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-white/85 hover:text-[color:var(--gold)] transition-colors"
+              >
+                +91 95481 84893
+              </a>
+            </div>
           </div>
         </div>
 

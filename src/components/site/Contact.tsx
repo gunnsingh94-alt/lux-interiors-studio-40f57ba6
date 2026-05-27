@@ -32,11 +32,24 @@ export function Contact() {
           <div className="mt-12 space-y-6 text-sm">
             <div className="flex items-start gap-4">
               <span className="text-[10px] tracking-[0.28em] uppercase text-white/40 mt-1 w-20">
-                Studio
+                Owner
               </span>
               <span className="text-white/85">
-                Jai Jagdamba Interior · Gujarat, India
+                Yash Bisnaliya
               </span>
+            </div>
+            <div className="flex items-start gap-4">
+              <span className="text-[10px] tracking-[0.28em] uppercase text-white/40 mt-1 w-20">
+                Studio
+              </span>
+              <a
+                href="https://maps.app.goo.gl/fnkyPWNpfRbn5C718"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-white/85 hover:text-[color:var(--gold)] transition-colors"
+              >
+                Jai Jagdamba Interior · Gujarat, India
+              </a>
             </div>
             <div className="flex items-start gap-4">
               <span className="text-[10px] tracking-[0.28em] uppercase text-white/40 mt-1 w-20">
@@ -54,10 +67,10 @@ export function Contact() {
                 Phone
               </span>
               <a
-                href="tel:+919999999999"
+                href="tel:+919548184893"
                 className="text-white/85 hover:text-[color:var(--gold)] transition-colors"
               >
-                +91 99999 99999
+                +91 95481 84893
               </a>
             </div>
           </div>

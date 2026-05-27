@@ -72,19 +72,20 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Jai Jagdamba Interior — Redefining Spaces. Elevating Interiors." },
+      { title: "Jai Jagdamba Interior — Premium Architectural Surfaces" },
       {
         name: "description",
         content:
           "Premium PVC panels, UV rolls & wallpapers, and PU stone for luxury interiors. A curated atelier of architectural surfaces.",
       },
-      { property: "og:title", content: "Jai Jagdamba Interior" },
+      { property: "og:title", content: "Jai Jagdamba Interior — Premium Architectural Surfaces" },
       {
         property: "og:description",
         content:
           "Premium interior materials: PVC panels, UV wallpapers, PU stone. Crafted for architects and dreamers.",
       },
       { property: "og:type", content: "website" },
+      { property: "og:site_name", content: "Jai Jagdamba Interior" },
       { name: "twitter:card", content: "summary_large_image" },
     ],
     links: [
@@ -92,6 +93,38 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       {
         rel: "stylesheet",
         href: "https://fonts.googleapis.com/css2?family=Syne:wght@500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600&display=swap",
+      },
+    ],
+    scripts: [
+      {
+        type: "application/ld+json",
+        children: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "WebSite",
+          name: "Jai Jagdamba Interior",
+          description:
+            "Premium PVC panels, UV rolls & wallpapers, and PU stone for luxury interiors.",
+        }),
+      },
+      {
+        type: "application/ld+json",
+        children: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "LocalBusiness",
+          name: "Jai Jagdamba Interior",
+          description:
+            "Premium interior materials atelier specializing in PVC panels, UV wallpapers, and PU stone.",
+          address: {
+            "@type": "PostalAddress",
+            addressRegion: "Gujarat",
+            addressCountry: "IN",
+          },
+          contactPoint: {
+            "@type": "ContactPoint",
+            telephone: "+91-95481-84893",
+            contactType: "sales",
+          },
+        }),
       },
     ],
   }),

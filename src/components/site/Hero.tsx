@@ -64,12 +64,12 @@ export function Hero() {
         <h1 className="font-display font-bold text-white leading-[0.92] tracking-[-0.02em] text-[clamp(2.6rem,9.5vw,9rem)]">
           <SplitText
             as="span"
-            text="Redefining Spaces."
+            text="Jai Jagdamba Interior"
             className="block"
           />
           <SplitText
             as="span"
-            text="Elevating Interiors."
+            text="Premium Interior Materials."
             className="block gold-gradient italic"
             delayStep={70}
           />

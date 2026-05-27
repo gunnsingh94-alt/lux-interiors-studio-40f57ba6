@@ -36,7 +36,7 @@ export function BeforeAfter() {
     >
       <img
         src={after}
-        alt="After"
+        alt="After interior renovation with premium PU stone finish"
         loading="lazy"
         className="absolute inset-0 h-full w-full object-cover"
       />
@@ -46,7 +46,7 @@ export function BeforeAfter() {
       >
         <img
           src={before}
-          alt="Before"
+          alt="Before interior renovation, bare wall surface"
           loading="lazy"
           className="absolute inset-0 h-full w-full object-cover"
           style={{ width: `${100 / (pos / 100)}%`, maxWidth: "none" }}

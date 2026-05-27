@@ -10,6 +10,10 @@ import { Contact } from "../components/site/Contact";
 
 export const Route = createFileRoute("/")({
   component: Index,
+  head: () => ({
+    meta: [{ property: "og:url", content: "/" }],
+    links: [{ rel: "canonical", href: "/" }],
+  }),
 });
 
 function Index() {
